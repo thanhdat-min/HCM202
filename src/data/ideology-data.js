@@ -117,10 +117,9 @@ export const museumContent = {
         {
           src: "/image/ky-niem-110-nam-Bac-Ho-ra-di-tim-duong-cuu-nuoc.jpg",
           alt: "Kỷ niệm 110 năm Bác Hồ ra đi tìm đường cứu nước",
-        },
-        {
-          src: "/image/6230aa01-9c32-4815-9676-952e04414d74.jpg",
-          alt: "Tư liệu minh họa cho hành trình ra đi tìm đường cứu nước",
+          sourceLabel: "Báo Nhân Dân",
+          sourceUrl:
+            "https://nhandan.vn/110-nam-bac-ho-ra-di-tim-duong-cuu-nuoc-post649839.html",
         },
       ],
     },
@@ -133,10 +132,9 @@ export const museumContent = {
         {
           src: "/image/115013_tu_ngay_6_1_7_2_1930_hoi_nghi_hop_nhat_cac_to_chuc_cong_san_thanh_lap_dang_cong_san_viet_nam_duoc_to_chuc_tai_hong_kong_trung_quoc_duoi_su_chu_tri_cua_18275230.jpg",
           alt: "Hội nghị hợp nhất các tổ chức cộng sản thành lập Đảng Cộng sản Việt Nam năm 1930",
-        },
-        {
-          src: "/image/6415cf18-eb77-47b7-8015-89c3daceeb68.jpg",
-          alt: "Hình ảnh minh họa cho bước ngoặt thành lập Đảng",
+          sourceLabel: "Báo điện tử Chính phủ",
+          sourceUrl:
+            "https://xaydungchinhsach.chinhphu.vn/dang-cong-san-viet-nam-ra-doi-buoc-ngoat-quyet-dinh-cua-cach-mang-viet-nam-119230203151244995.htm",
         },
       ],
     },
@@ -147,8 +145,8 @@ export const museumContent = {
         "Mặt trận Việt Minh quy tụ lực lượng yêu nước, chuyển hóa tư tưởng giải phóng dân tộc thành phong trào hành động rộng khắp.",
       images: [
         {
-          src: "/image/9ec1f434-3107-4d8a-9d2e-9bc1af87d508.jpg",
-          alt: "Hình ảnh minh họa cho cao trào Việt Minh và khối đại đoàn kết dân tộc",
+          src: "/image/OIP.jpg",
+          alt: "Hình ảnh minh họa cho giai đoạn thành lập Việt Minh năm 1941",
         },
       ],
     },
@@ -161,10 +159,9 @@ export const museumContent = {
         {
           src: "/image/bac ho doc tuyen ngon.jpg",
           alt: "Bác Hồ đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình",
-        },
-        {
-          src: "/image/images.jpg",
-          alt: "Hình ảnh minh họa cho Cách mạng Tháng Tám và Tuyên ngôn Độc lập",
+          sourceLabel: "VietnamPlus",
+          sourceUrl:
+            "https://en.vietnamplus.vn/online-painting-exhibition-features-august-revolution-victory-post207250.vnp",
         },
       ],
     },
@@ -177,6 +174,9 @@ export const museumContent = {
         {
           src: "/image/18052016son141.jpg",
           alt: "Hình ảnh minh họa cho giai đoạn kháng chiến gắn với chân lý độc lập, tự do",
+          sourceLabel: "Báo điện tử Đảng Cộng sản Việt Nam",
+          sourceUrl:
+            "https://dangcongsan.vn/tu-tuong-van-hoa/khong-co-gi-quy-hon-doc-lap-tu-do-389459.html",
         },
       ],
     },
@@ -257,5 +257,43 @@ export const museumContent = {
       "Nhân dân vừa là mục tiêu, vừa là động lực của cách mạng.",
       "Lãnh đạo đúng đắn, đoàn kết rộng rãi và tinh thần chủ động làm nên thắng lợi lịch sử.",
     ],
+  },
+  aiUsage: {
+    eyebrow: "AI Usage",
+    title: "Ứng dụng AI có trách nhiệm, minh bạch và liêm chính học thuật",
+    description:
+      "Phần phụ lục này minh bạch cách nhóm sử dụng AI như một công cụ hỗ trợ trong quá trình xây dựng website và học liệu, đồng thời khẳng định trách nhiệm kiểm chứng và biên soạn cuối cùng thuộc về sinh viên.",
+    tools: [
+      {
+        name: "ChatGPT / AI hỗ trợ nội dung",
+        purpose:
+          "Gợi ý bố cục trình bày, tóm tắt ý chính và cách diễn đạt nội dung học thuật.",
+        prompt:
+          "Gợi ý thứ tự sắp xếp các nội dung đã được cung cấp.",
+        result:
+          "AI tạo bản nháp dàn ý, quote và summary.",
+        edited:
+          "Nhóm tự chọn lọc, đối chiếu lại với giáo trình LLCT, chỉnh sửa thuật ngữ và viết lại cho phù hợp với yêu cầu môn học.",
+      },
+      {
+        name: "AI hỗ trợ hình thức trình bày",
+        purpose:
+          "Gợi ý bố cục giao diện, sơ đồ hóa nội dung, trình tự hiển thị các phần và cách tăng tính tương tác cho người xem.",
+        prompt:
+          "Đề xuất cách trình bày một website học tập về tư tưởng Hồ Chí Minh có sơ đồ tư duy, dòng thời gian, trích dẫn và phần tự kiểm tra.",
+        result:
+          "AI gợi ý hướng tổ chức giao diện theo từng section rõ ràng, giúp nhóm triển khai thành sản phẩm web trực quan hơn.",
+        edited:
+          "Nhóm tự lập trình, tự chọn ảnh, tự viết nội dung cuối cùng và tự điều chỉnh giao diện cho phù hợp với mục tiêu thuyết trình.",
+      },
+    ],
+    principles: [
+      "Có phụ lục AI Usage liệt kê công cụ, mục đích, prompt chính, kết quả và phần sinh viên chỉnh sửa.",
+      "Mọi thông tin do AI hỗ trợ đều được kiểm chứng lại bằng giáo trình LLCT, nghị quyết và nguồn chính thống trước khi sử dụng.",
+      "AI chỉ đóng vai trò hỗ trợ sáng tạo như gợi ý bố cục, sơ đồ, quiz hoặc hình thức trình bày, không thay thế toàn bộ quá trình học thuật.",
+      "Nhóm cam kết không để AI làm thay hoàn toàn, luôn phân định rõ AI output và phần sinh viên biên soạn, chịu trách nhiệm về nội dung cuối cùng.",
+    ],
+    commitment:
+      "Chúng em có sử dụng công cụ AI trong một số khâu hỗ trợ như lên ý tưởng, gợi ý bố cục, tạo câu hỏi trắc nghiệm và hỗ trợ trình bày. Tuy nhiên, toàn bộ nội dung cuối cùng đã được nhóm tự kiểm chứng bằng giáo trình, văn kiện và nguồn chính thống; đồng thời tự chỉnh sửa, biên soạn lại để bảo đảm đúng yêu cầu học thuật và không để AI làm thay hoàn toàn.",
   },
 };

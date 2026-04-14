@@ -9,6 +9,7 @@ import { TimelineSection } from "./components/timeline-section";
 import { QuoteShowcase } from "./components/quote-showcase";
 import { QuizSection } from "./components/quiz-section";
 import { SummarySection } from "./components/summary-section";
+import { AIUsageSection } from "./components/ai-usage-section";
 import { museumContent } from "./data/ideology-data";
 
 function App() {
@@ -140,6 +141,10 @@ function App() {
         <div className="relative">
           <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
           <SummarySection summary={museumContent.summary} />
+        </div>
+        <div className="relative">
+          <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+          <AIUsageSection aiUsage={museumContent.aiUsage} />
         </div>
 
         <NodeDetailDialog

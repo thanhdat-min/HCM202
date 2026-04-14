@@ -84,28 +84,31 @@ export function TimelineSection({ timeline }) {
                       {item.description}
                     </p>
 
-                    {item.images?.length ? (
-                      <div
-                        className={`mt-6 grid gap-3 ${
-                          item.images.length > 1
-                            ? "sm:grid-cols-2"
-                            : "grid-cols-1"
-                        }`}
-                      >
-                        {item.images.map((image) => (
-                          <figure
-                            key={image.src}
-                            className="group overflow-hidden rounded-2xl border border-white/10 bg-[#1c120e]"
-                          >
-                            <img
-                              src={image.src}
-                              alt={image.alt}
-                              className="h-52 w-full object-cover transition duration-500 group-hover:scale-[1.03]"
-                              loading="lazy"
-                            />
-                          </figure>
-                        ))}
-                      </div>
+                    {item.images?.[0] ? (
+                      <figure className="mt-6 overflow-hidden rounded-2xl border border-white/10 bg-[#1c120e] p-4">
+                        <div className="flex min-h-[240px] items-center justify-center rounded-xl bg-black/15 sm:min-h-[320px]">
+                          <img
+                            src={item.images[0].src}
+                            alt={item.images[0].alt}
+                            className="max-h-[420px] w-full object-contain"
+                            loading="lazy"
+                          />
+                        </div>
+                        {item.images[0].sourceUrl ? (
+                          <figcaption className="mt-4 text-sm leading-6 text-museum-cream/68">
+                            Nguồn:{" "}
+                            <a
+                              href={item.images[0].sourceUrl}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="break-all text-museum-gold transition hover:text-museum-cream"
+                            >
+                              {item.images[0].sourceLabel ??
+                                item.images[0].sourceUrl}
+                            </a>
+                          </figcaption>
+                        ) : null}
+                      </figure>
                     ) : null}
                   </CardContent>
                 </Card>
