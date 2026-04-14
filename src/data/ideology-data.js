@@ -113,30 +113,72 @@ export const museumContent = {
       title: "Ra đi tìm đường cứu nước",
       description:
         "Nguyễn Tất Thành rời Tổ quốc, bắt đầu hành trình khảo nghiệm thực tiễn để tìm con đường giải phóng dân tộc.",
+      images: [
+        {
+          src: "/image/ky-niem-110-nam-Bac-Ho-ra-di-tim-duong-cuu-nuoc.jpg",
+          alt: "Kỷ niệm 110 năm Bác Hồ ra đi tìm đường cứu nước",
+        },
+        {
+          src: "/image/6230aa01-9c32-4815-9676-952e04414d74.jpg",
+          alt: "Tư liệu minh họa cho hành trình ra đi tìm đường cứu nước",
+        },
+      ],
     },
     {
       year: "1930",
       title: "Thành lập Đảng Cộng sản Việt Nam",
       description:
         "Một bước ngoặt mang tính nền tảng, thống nhất lực lượng cách mạng và xác lập vai trò lãnh đạo của Đảng.",
+      images: [
+        {
+          src: "/image/115013_tu_ngay_6_1_7_2_1930_hoi_nghi_hop_nhat_cac_to_chuc_cong_san_thanh_lap_dang_cong_san_viet_nam_duoc_to_chuc_tai_hong_kong_trung_quoc_duoi_su_chu_tri_cua_18275230.jpg",
+          alt: "Hội nghị hợp nhất các tổ chức cộng sản thành lập Đảng Cộng sản Việt Nam năm 1930",
+        },
+        {
+          src: "/image/6415cf18-eb77-47b7-8015-89c3daceeb68.jpg",
+          alt: "Hình ảnh minh họa cho bước ngoặt thành lập Đảng",
+        },
+      ],
     },
     {
       year: "1941",
       title: "Thành lập Việt Minh, mở rộng khối đoàn kết dân tộc",
       description:
         "Mặt trận Việt Minh quy tụ lực lượng yêu nước, chuyển hóa tư tưởng giải phóng dân tộc thành phong trào hành động rộng khắp.",
+      images: [
+        {
+          src: "/image/9ec1f434-3107-4d8a-9d2e-9bc1af87d508.jpg",
+          alt: "Hình ảnh minh họa cho cao trào Việt Minh và khối đại đoàn kết dân tộc",
+        },
+      ],
     },
     {
       year: "1945",
       title: "Tuyên ngôn Độc lập",
       description:
         "Nước Việt Nam Dân chủ Cộng hòa ra đời, khẳng định quyền độc lập, tự do và quyền sống của một dân tộc.",
+      images: [
+        {
+          src: "/image/bac ho doc tuyen ngon.jpg",
+          alt: "Bác Hồ đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình",
+        },
+        {
+          src: "/image/images.jpg",
+          alt: "Hình ảnh minh họa cho Cách mạng Tháng Tám và Tuyên ngôn Độc lập",
+        },
+      ],
     },
     {
       year: "1966",
       title: "Khẳng định giá trị tuyệt đối của độc lập, tự do",
       description:
         "Lời khẳng định nổi tiếng của Hồ Chí Minh trở thành chân lý có sức hiệu triệu sâu rộng trong cuộc kháng chiến và trong đời sống chính trị Việt Nam.",
+      images: [
+        {
+          src: "/image/18052016son141.jpg",
+          alt: "Hình ảnh minh họa cho giai đoạn kháng chiến gắn với chân lý độc lập, tự do",
+        },
+      ],
     },
   ],
   quotes: [

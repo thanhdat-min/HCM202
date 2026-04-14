@@ -71,8 +71,8 @@ export function TimelineSection({ timeline }) {
                 transition={{ duration: 0.45, delay: index * 0.05 }}
               >
                 <div className="hidden md:block" />
-                <Card className="relative border-white/10 bg-white/[0.04]">
-                  <span className="absolute left-6 top-6 inline-flex h-3 w-3 rounded-full bg-museum-gold shadow-[0_0_0_6px_rgba(215,181,109,0.15)] md:left-auto md:right-[-34px]" />
+                <Card className="relative overflow-hidden border-white/10 bg-white/[0.04]">
+                  <span className="absolute left-6 top-6 z-10 inline-flex h-3 w-3 rounded-full bg-museum-gold shadow-[0_0_0_6px_rgba(215,181,109,0.15)] md:left-auto md:right-[-34px]" />
                   <CardContent className="p-6 md:p-7">
                     <p className="text-sm font-semibold uppercase tracking-[0.28em] text-museum-gold">
                       {item.year}
@@ -83,6 +83,30 @@ export function TimelineSection({ timeline }) {
                     <p className="mt-4 text-base leading-8 text-museum-cream/76">
                       {item.description}
                     </p>
+
+                    {item.images?.length ? (
+                      <div
+                        className={`mt-6 grid gap-3 ${
+                          item.images.length > 1
+                            ? "sm:grid-cols-2"
+                            : "grid-cols-1"
+                        }`}
+                      >
+                        {item.images.map((image) => (
+                          <figure
+                            key={image.src}
+                            className="group overflow-hidden rounded-2xl border border-white/10 bg-[#1c120e]"
+                          >
+                            <img
+                              src={image.src}
+                              alt={image.alt}
+                              className="h-52 w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+                              loading="lazy"
+                            />
+                          </figure>
+                        ))}
+                      </div>
+                    ) : null}
                   </CardContent>
                 </Card>
               </motion.div>

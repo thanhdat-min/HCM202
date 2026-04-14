@@ -35,6 +35,29 @@ export function NodeDetailDialog({ node, open, onClose }) {
               </div>
             ))}
           </div>
+
+          {node.details?.length ? (
+            <div className="mt-8">
+              <p className="text-sm uppercase tracking-[0.24em] text-museum-gold">
+                Nội dung bổ sung
+              </p>
+              <div className="mt-5 space-y-4">
+                {node.details.map((detail) => (
+                  <div
+                    key={detail.label}
+                    className="rounded-2xl border border-museum-gold/15 bg-museum-gold/10 px-4 py-4"
+                  >
+                    <p className="text-sm font-semibold text-museum-cream">
+                      {detail.label}
+                    </p>
+                    <p className="mt-2 text-sm leading-6 text-museum-cream/75">
+                      {detail.text}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ) : null}
         </div>
       </div>
     </Dialog>
