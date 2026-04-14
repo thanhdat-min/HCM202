@@ -119,7 +119,7 @@ export const museumContent = {
           alt: "Kỷ niệm 110 năm Bác Hồ ra đi tìm đường cứu nước",
           sourceLabel: "Báo Nhân Dân",
           sourceUrl:
-            "https://nhandan.vn/110-nam-bac-ho-ra-di-tim-duong-cuu-nuoc-post649839.html",
+            "https://hvpnvn.edu.vn/cat-cong-tac-sinh-vien/sinh-vien-vwa/ky-niem-110-nam-ngay-bac-ho-ra-di-tim-duong-cuu-nuoc-su-lua-chon-lich-su/",
         },
       ],
     },
@@ -132,9 +132,9 @@ export const museumContent = {
         {
           src: "/image/115013_tu_ngay_6_1_7_2_1930_hoi_nghi_hop_nhat_cac_to_chuc_cong_san_thanh_lap_dang_cong_san_viet_nam_duoc_to_chuc_tai_hong_kong_trung_quoc_duoi_su_chu_tri_cua_18275230.jpg",
           alt: "Hội nghị hợp nhất các tổ chức cộng sản thành lập Đảng Cộng sản Việt Nam năm 1930",
-          sourceLabel: "Báo điện tử Chính phủ",
+          sourceLabel: "Báo điện tử Cao Bằng",
           sourceUrl:
-            "https://xaydungchinhsach.chinhphu.vn/dang-cong-san-viet-nam-ra-doi-buoc-ngoat-quyet-dinh-cua-cach-mang-viet-nam-119230203151244995.htm",
+            "https://baocaobang.vn/dang-cong-san-viet-nam-ra-doi-buoc-ngoat-quyet-dinh-cua-cach-mang-viet-nam-3167267.html",
         },
       ],
     },
@@ -147,6 +147,9 @@ export const museumContent = {
         {
           src: "/image/OIP.jpg",
           alt: "Hình ảnh minh họa cho giai đoạn thành lập Việt Minh năm 1941",
+          sourceLabel: "Bảo Tàng Lịch Sử Quốc Gia",
+          sourceUrl:
+            "https://baotanglichsu.vn/vi/Articles/3097/16382/19-5-1941-thanh-lap-mat-tran-viet-minh.html",
         },
       ],
     },
@@ -161,7 +164,7 @@ export const museumContent = {
           alt: "Bác Hồ đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình",
           sourceLabel: "VietnamPlus",
           sourceUrl:
-            "https://en.vietnamplus.vn/online-painting-exhibition-features-august-revolution-victory-post207250.vnp",
+            "https://baotanglichsu.vn/vi/Articles/3096/71055/tuyen-ngon-djoc-lap-2-9-1945-ban-tuyen-ngon-ve-y-chi-khong-co-gi-quy-hon-djoc-lap-tu-do-cua-dan-toc-viet-nam.html",
         },
       ],
     },
@@ -176,7 +179,7 @@ export const museumContent = {
           alt: "Hình ảnh minh họa cho giai đoạn kháng chiến gắn với chân lý độc lập, tự do",
           sourceLabel: "Báo điện tử Đảng Cộng sản Việt Nam",
           sourceUrl:
-            "https://dangcongsan.vn/tu-tuong-van-hoa/khong-co-gi-quy-hon-doc-lap-tu-do-389459.html",
+            "https://baotanglichsu.vn/vi/Articles/3097/19364/17-7-1966-chu-tich-ho-chi-minh-ra-loi-keu-goi-chong-my-cuu-nuoc-khang-djinh-chan-ly-khong-co-gi-quy-hon-djoc-lap-tu-do.html",
         },
       ],
     },
